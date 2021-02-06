@@ -1,0 +1,207 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  width: 100%;
+  background-image: url("https://img2.thuthuatphanmem.vn/uploads/2018/11/30/hinh-nen-may-trang-dep_104324872.jpg");
+}
+.container {
+  width: 700px;
+  margin: 0px auto;
+  .header {
+    width: 700px;
+    padding: 50px 0px 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    h1 {
+      font-size: 45px;
+      font-weight: 500;
+      color: #212529;
+      text-shadow: 5px 2px 4px grey;
+    }
+    .form-search{
+      margin: auto;
+      input {
+        width: 250px;
+        height: 40px;
+        font-size: 15px;
+        color: #212529;
+        padding: 0px 10px;
+        // border: 1px solid #ced4da;
+        border: 1px solid #46494d;
+        border-radius: 10px;
+        outline: none;
+        &:focus {
+          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+          border-radius: 10px;
+          transition: .1s ease;
+        }
+      }
+    }
+    .form-filter{
+      width: 80px;
+      height: 40px;
+      margin: auto 0px auto auto;
+      // border: 1px solid #ced4da;
+      border: 1px solid #46494d;
+      border-radius: 8px;
+      color:#212529;
+      outline: none;
+      overflow: hidden;
+    }
+}
+  .form-submit{
+    input {
+      width: 678px;
+      height: 40px;
+      font-size: 15px;
+      color: #212529;
+      line-height: 2.5;
+      padding: 0px 10px;
+      // border: 1px solid #ced4da;
+      border: 1px solid #46494d;
+      border-radius: 10px;
+      outline: none;
+      &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        border-radius: 10px;
+        transition: .1s ease;
+      }
+    }
+  }
+  .btn-control{
+    width: 700px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    &-checkAll{
+      width: 90px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 14px;
+      padding: 10px 5px;
+      background-color: #007bff;
+      border-radius: 10px;
+      cursor: pointer;
+      &:hover{
+        box-shadow: 0 0 5px #212529;
+      }
+    }
+    &-deleteAll{
+      width: 90px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 14px;
+      padding: 10px 5px;
+      background-color: #ff0000;
+      border-radius: 10px;
+      cursor: pointer;
+      &:hover{
+        box-shadow: 0 0 5px #212529;
+      }
+    }
+    div{
+      padding: 10px;
+      span{
+        margin: 0px 15px;
+        font-size: 16px;
+        font-weight: 550;
+      }
+      .All{
+        color: black;
+      }
+      .Complete{
+        color: green;
+      }
+      .UnComplete{
+        color: red;
+      }
+    }
+  }
+  .list-element {
+    padding: 0px 0px 50px 0px;
+    li {
+      width: 648px;
+      height: 50px;
+      margin: 0px 0px 5px 0px;
+      padding: 0px 25px;
+      border-radius: 10px;
+      // border: 1px solid #ced4da;
+      border: 1px solid #46494d;
+      display: flex;
+      justify-content: space-between;
+      .Item{
+        margin: auto;
+        input{
+          width: 456px;
+          height: 35px;
+          padding: 0px 20px;
+          font-size: 14px;
+          text-align: center;
+          border-radius: 10px;
+          outline: none;
+          overflow: hidden;
+          &:focus {
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+            transition: .1s ease;
+            }
+          }
+      }
+      button{
+        width: 500px;
+        height: 40px;
+        margin: auto;
+        padding: 0px 20px;
+        border-radius: 10px;
+        outline: none;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .form-check{
+        margin: auto;
+        .form-check-input{
+          width: 20px;
+          transform: scale(1.2);
+        }
+      }
+      .btn-icon-list {
+        display: flex;
+        justify-content: space-between;
+        i {
+          padding: 10px;
+          border-radius: 5px;
+          font-size: 15px;
+        }
+        .btn-icon-edit {
+          margin: auto;
+          color: #007bff;
+          &:hover {
+            transition: all 0.2s ease;
+            color: #ffffff;
+            background-color: #007bff;
+          }
+        }
+        .btn-icon-remove {
+          margin: auto;
+          color: #de3545;
+          &:hover {
+            transition: all 0.2s ease;
+            color: #ffffff;
+            background-color: #de3545;
+          }
+        }
+      }
+    }
+  }
+}
+
+// =================================================
+
+.done {
+  text-decoration: line-through #ff0000;
+  background-color: #90f184;
+}
