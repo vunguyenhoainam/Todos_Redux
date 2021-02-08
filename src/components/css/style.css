@@ -9,6 +9,7 @@
 body {
   width: 100%;
   background-image: url("https://img2.thuthuatphanmem.vn/uploads/2018/11/30/hinh-nen-may-trang-dep_104324872.jpg");
+  background-size: cover;
 }
 
 .container {
@@ -82,7 +83,7 @@ body {
   text-align: center;
   color: #ffffff;
   font-size: 14px;
-  padding: 10px 5px;
+  padding: 12px 5px;
   background-color: #007bff;
   border-radius: 10px;
   cursor: pointer;
@@ -95,7 +96,7 @@ body {
   text-align: center;
   color: #ffffff;
   font-size: 14px;
-  padding: 10px 5px;
+  padding: 12px 5px;
   background-color: #ff0000;
   border-radius: 10px;
   cursor: pointer;
