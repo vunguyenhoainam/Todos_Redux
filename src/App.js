@@ -12,12 +12,8 @@ const App = () => {
   const [filterName, setFilterName] = useState("az");
   const [filterStatus, setFilterStatus] = useState("All");
   const [statusCheck, setStatusCheck] = useState(false);
-  // console.log("DATASTORE",dataState);
 
   const countActive = dataState.TodosReducer.dataTodos.filter( item => item.status === true);
-  // const countActive = dataState;
-  console.log("ACTIVE :",countActive.length);
-  console.log("NOT_ACTIVE :",(dataState.TodosReducer.dataTodos.length) - (countActive.length));
 
   const handleSearch = dataState.TodosReducer.dataTodos.filter(item => item.title.toLocaleLowerCase().includes(search.toLocaleLowerCase()));
   
