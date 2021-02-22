@@ -8,8 +8,7 @@
 
 body {
   width: 100%;
-  background-image: url("https://img2.thuthuatphanmem.vn/uploads/2018/11/30/hinh-nen-may-trang-dep_104324872.jpg");
-  background-size: cover;
+  background-color: #F8F8FF;
 }
 
 .container {
@@ -37,7 +36,7 @@ body {
   font-size: 15px;
   color: #212529;
   padding: 0px 10px;
-  border: 1px solid #46494d;
+  border: 1px solid #ced4da;
   border-radius: 10px;
   outline: none;
 }
@@ -50,7 +49,7 @@ body {
   width: 80px;
   height: 40px;
   margin: auto 0px auto auto;
-  border: 1px solid #46494d;
+  border: 1px solid #ced4da;
   border-radius: 8px;
   color: #212529;
   outline: none;
@@ -63,7 +62,7 @@ body {
   color: #212529;
   line-height: 2.5;
   padding: 0px 10px;
-  border: 1px solid #46494d;
+  border: 1px solid #ced4da;
   border-radius: 10px;
   outline: none;
 }
@@ -130,7 +129,7 @@ body {
   margin: 0px 0px 5px 0px;
   padding: 0px 25px;
   border-radius: 10px;
-  border: 1px solid #46494d;
+  border: 1px solid #ced4da;
   display: flex;
   justify-content: space-between;
 }
